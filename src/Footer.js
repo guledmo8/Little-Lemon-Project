@@ -1,13 +1,16 @@
+import React from "react";
+import logo from "./images/Logo .svg"
 
-
-function Footer() {
+const Footer = () => {
     return (
-      <footer className="Footer">
-        <div className="company-footer">
-        
-        </div>
+      <footer >
+        <section>
+          <div className="company-info">
+            <img src={logo} alt=""/>
+          </div>
+        </section>
       </footer>
     );
-  }
+};
 
   export default Footer;
